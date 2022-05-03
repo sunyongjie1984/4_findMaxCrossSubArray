@@ -1,14 +1,23 @@
-//
-//  main.cpp
-//  4_findMaxCrossSubArray
-//
-//  Created by 孙永杰 on 2022/5/3.
-//
-
+// main.cpp
 #include <iostream>
+#ifdef __linux
+#include <stdio.h>
+#endif
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+#include "FindMaxCrossingSubArray.h"
+
+using std::cout;
+using std::endl;
+
+int B[10] = { 1, -10, 2, 4, 6, -15, 6, 1, 9, -8 };
+
+int main()
+{
+    cout<<endl;
+    int max_left, max_right, max_value;
+    Find_MaxiMum_SubArray(B, 0, sizeof(B)/sizeof(int) - 1 , max_left, max_right, max_value);
+    cout<< max_left << "\t" << max_right << "\t" << max_value <<endl;
+    cout <<endl;
+    getchar();
     return 0;
 }

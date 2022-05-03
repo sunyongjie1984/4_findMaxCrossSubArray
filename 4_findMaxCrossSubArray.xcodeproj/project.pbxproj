@@ -25,6 +25,7 @@
 /* Begin PBXFileReference section */
 		13160CF02820FDF300634997 /* 4_findMaxCrossSubArray */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 4_findMaxCrossSubArray; sourceTree = BUILT_PRODUCTS_DIR; };
 		13160CF32820FDF300634997 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		13160CFA2820FE3000634997 /* FindMaxCrossingSubArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FindMaxCrossingSubArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +58,7 @@
 		13160CF22820FDF300634997 /* 4_findMaxCrossSubArray */ = {
 			isa = PBXGroup;
 			children = (
+				13160CFA2820FE3000634997 /* FindMaxCrossingSubArray.h */,
 				13160CF32820FDF300634997 /* main.cpp */,
 			);
 			path = 4_findMaxCrossSubArray;
