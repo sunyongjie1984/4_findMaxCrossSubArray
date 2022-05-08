@@ -1,7 +1,13 @@
 // find_max_sub_array.h
 #include <stdint.h>
 
-int Find_MAX_CROSSING_SUBARRAY(int* A, int low, int mid, int high, int& max_left, int& max_right, int& max_value)
+int Find_MAX_CROSSING_SUBARRAY( int* A,
+                                int low,
+                                int mid,
+                                int high,
+                                int& max_left,
+                                int& max_right,
+                                int& max_value)
 {
     int left_sum = 0xFFFFFFFF; // 不可能的最小值
     int sum = 0;
@@ -33,7 +39,12 @@ int Find_MAX_CROSSING_SUBARRAY(int* A, int low, int mid, int high, int& max_left
     return 0;
 }
 
-int Find_MaxiMum_SubArray(int* A, int low, int high, int& max_left, int& max_right, int& max_value)
+int Find_MaxiMum_SubArray(int* A,
+                          int low,
+                          int high,
+                          int& max_left,
+                          int& max_right,
+                          int& max_value)
 {
     if(high == low)
     {
